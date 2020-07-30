@@ -10,12 +10,12 @@ const Routes = () =>{
 
     return(
         <NavigationContainer>
-            <AppStack.Navigator>
-                <AppStack.Screen component={Incidents}/>
-                <AppStack.Screen component={Detail}/>
+            <AppStack.Navigator screenOptions={{headerShown: false}}>
+                <AppStack.Screen name="incidents" component={Incidents}/>
+                <AppStack.Screen name="detail"  component={Detail}/>
             </AppStack.Navigator>
         </NavigationContainer>
     )
 }
 
-export default AppStack;
+export default Routes;
