@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="page1.png" >
+  <img src="pageone.png" >
   <br/>
   <br/>
-   <img src="page2.png" >
+   <img src="pagetwo.png" >
 </p>
 
 ### `yarn android`
